@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363636"
+    android:orientation="vertical"
+    tools:context="br.com.nrbsistemas.uniderp_31.LoginActivity">
+    <ImageView
+        android:id="@+id/img_logo_login"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/uniderplogo"
+        android:clickable="true"
+        android:onClick="moduloAdm"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggle_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textOff="Aluno"
+            android:textOn="Professor" />
+
+        <EditText
+            android:id="@+id/edt_login"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:textColorHint="#fff"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:hint="Selecione seu prefil"
+            android:inputType="text"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Senha:" />
+
+        <EditText
+            android:id="@+id/edt_senha"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Logar"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Uniderp - 3.1</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sair">str_sair</string>
+    <string name="title_activity_cadastrar_professor">CadastrarProfessor</string>
+    <string name="title_activity_cadastrar_alunos">CadastrarAlunos</string>
+</resources>
